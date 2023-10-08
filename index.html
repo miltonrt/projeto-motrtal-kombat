@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/img/logo_mk.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/font.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Mortal Kombat - Wiki</title>
+</head>
+
+<body>
+    <div class="play">
+        <audio src="./src/audio/Mortal_Kombat.mp3" autoplay preload loop controls></audio>
+    </div>
+
+    <header class="cabecalho">
+        <img class="logo" src="./src/img/bg_logo.gif" alt="Logo Mortal Kombat">
+    </header>
+    <main class="selecao_personagens">
+        <selection class="personagens">
+            <h1 class="titulo_selecao">Selecione um persoangem</h1>
+            <ul class="lista_personagens">
+                <li class="personagem selecionado" id="scorpion" data-name="scorpion" data-tag="hanzo hasashi"
+                    data-description="Grão Mestre Escorpião do Shirai Ryu. Movido pela raiva, Hanzo Hasashi atravessou o Inferno e voltou para vingar sua família e clã, nunca descansando até matar seu assassino, Quan Chi. Agora, ele lidera um Shirai Ryu renascido, vingando aqueles que não conseguem se vingar. Mas embora pareça ter controle sobre seu espírito ígneo, Scorpion ainda teme que o fogo esteja destinado a consumi-lo.">
+                    <img src="./src/img/slc_scorpion.jpg" alt="Personagem Scorpion">
+                </li>
+
+                <li class="personagem" id="sub-zero" data-name="sub-zero" data-tag="lin kuei"
+                    data-description="Grão-mestre dos Lin Kuei e irmão mais novo de Bi‑Han, o anterior Sub-Zero. Os irmãos Bi‑Han e Kuai Liang usaram o manto Sub-Zero. Bi‑Han até sua morte violenta nas mãos de Scorpion; depois Kuai Liang, que o vestiu para homenagear seu falecido irmão. Mas embora compartilhassem o dom da criomancia, eles tinham visões concorrentes para o futuro dos Lin Kuei. Bi‑Han abraçou a tradição de seu clã de ser o maior assassino do Plano Terreno. Kuai Liang acreditava que a tradição era uma corrupção do verdadeiro propósito dos Lin Kuei. Agora, o Grande Mestre do Lin Kuei, Kuai Liang, quer fechar o livro sobre os pecados passados de seu clã. Felizmente, não está além da redenção.">
+                    <img src="./src/img/slc_sub_zero.jpg" alt="Personagem Sub-Zero">
+                </li>
+
+                <li class="personagem" id="sonya-blade" data-name="sonya blade" data-tag="forças especiais"
+                    data-description="Oficial condecorado das Forças Especiais. Sonya enfrentou o torneio Mortal Kombat, defendeu Earthrealm e resgatou seu parceiro, Jax Briggs. Grave demais, ela nunca tira tempo para licença pessoal, preferindo permanecer vigilante até que todos os reinos estejam a salvo da conquista. Essa perseguição incessante torna Sonya mortal para seus inimigos, mas também pode afastá-la dos companheiros que dependem dela.">
+                    <img src="./src/img/slc_sonya_blade.jpg" alt="Personagem Sonya Blade">
+                </li>
+
+                <li class="personagem" id="raiden" data-name="raiden" data-tag="deus do trovão"
+                    data-description="Deus Imortal do Trovão, Protetor do Plano Terreno. Raiden salvou Earthrealm repetidas vezes, reunindo os guerreiros mais valentes e fortes da época para defendê-lo. Depois de séculos de combate e derramamento de sangue, ele teme consequências indesejadas para a humanidade e para si mesmo. Apesar de suas intenções nobres, sua necessidade de proteger os reinos o torna propenso à paranóia e ao julgamento errôneo.">
+                    <img src="./src/img/slc_raiden.jpg" alt="Personagem Raiden">
+                </li>
+                <li class="personagem" id="liu-kang" data-name="liu kang" data-tag="o escolhido"
+                    data-description="Monge Shaolin e Campeão do Plano Terreno. Liu Kang era um órfão adotado e treinado nas artes do kombat pela ordem Shaolin. Ele os honrou ao derrotar Shang Tsung em Mortal Kombat e salvar Earthrealm como “o Escolhido”, um título que pesa sobre seus ombros. Liu Kang duvida que algum dia possa alcançar a grandeza que se espera dele, mas considera que é sua responsabilidade tentar.">
+                    <img src="./src/img/slc_liu_kang.jpg" alt="Pesonagem Liu Kang">
+                </li>
+                <li class="personagem" id="kano" data-name="kano" data-tag="dragão negro"
+                    data-description="Negociante de armas e líder do Dragão Negro. Kano se orgulha de ser o melhor negociador, com uma rede de mercado negro que abrange todos os reinos. Ainda nunca é suficiente. Até mesmo seus seguidores leais sabem que ele apunhalaria sua mãe pelas costas se o preço fosse justo. Essa atitude é o segredo do seu sucesso. É também a razão pela qual ele tem inimigos em todos os reinos.">
+                    <img src="./src/img/slc_kano.jpg" alt="Personagem Kano">
+                </li>
+            </ul>
+        </selection>
+
+        <selection class="personagem_selecionado">
+            <img class="personagem_grade" src="./src/img/fc_scorpion.gif" alt="Personagem Selecionado">
+            <div class="informacoes_personagem">
+                <h2 class="nome_personagem" id="nome_personagem">Scorpion</h2>
+            </div>
+        </selection>
+
+        <selection class="personagem_descricao">
+            <div class="informacoes_personagem">
+                <h2 class="tag_personagem" id="tag_personagem">HANZO HASASHI</h2>
+                <p class="descricao_personagem" id="descricao_personagem">Grão Mestre Escorpião do Shirai Ryu. Movido
+                    pela raiva, Hanzo Hasashi atravessou o Inferno e voltou para vingar sua família e clã, nunca
+                    descansando até matar seu assassino, Quan Chi. Agora, ele lidera um Shirai Ryu renascido, vingando
+                    aqueles que não conseguem se vingar. Mas embora pareça ter controle sobre seu espírito ígneo,
+                    Scorpion ainda teme que o fogo esteja destinado a consumi-lo.</p>
+            </div>
+        </selection>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

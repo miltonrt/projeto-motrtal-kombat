@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'mk1';
+    src: url('../font/mk1.woff');
+}
+
+@font-face {
+    font-family: 'mk1';
+    src: url('../font/mk1.otf');
+}
+
+@font-face {
+    font-family: 'MK4';
+    src: url('../font/MK4.woff');
+}
+
+@font-face {
+    font-family: 'MK4';
+    src: url('../font/MK4.otf');
+}
+
+@font-face {
+    font-family: 'mk5style';
+    src: url('../font/mk5style.woff');
+}
+
+@font-face {
+    font-family: 'mk5style';
+    src: url('../font/mk5style.otf');
+}
+
+@font-face {
+    font-family: 'mkda';
+    src: url('../font/mkda.woff');
+}
+
+@font-face {
+    font-family: 'mkda';
+    src: url('../font/mkda.otf');
+}
